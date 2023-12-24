@@ -1,0 +1,16 @@
+abstract class Cars
+{
+abstract double price (double x); abstract void colors();
+}
+class Toyoto extends Cars {
+double price (double x)
+{ System.out.println("Price is: "+ x); return 0; }
+void colors()
+{ System.out.println("blue"); }
+public static void main(String args[])
+{
+Toyoto s=new Toyoto();
+s.price (8.97);
+s.colors();
+}
+}
